@@ -1,0 +1,249 @@
+/* Index  */
+
+
+/* Globals Html */
+
+html {
+
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: Arial, Verdana, sans-serif;
+}
+*, *:before, *:after {
+
+  box-sizing: inherit;
+}
+
+body {
+
+	padding: 0;
+	margin: 0;
+}
+
+
+/* //////////////////  header //////////////////*/
+
+header {
+	width: 100%;
+	background:url(../img/banner.jpg) no-repeat center center;
+	background-size: cover; 
+	overflow: hidden;
+	height: 600px;
+}
+
+
+img {
+	height: 90px;
+	margin-left: 216px;
+	float: left;
+
+}
+
+section {
+	width: 100%;
+	background-color:#E1E1E1;
+	
+}
+
+.nav-principal {
+	margin-bottom:10px;
+	overflow: hidden;
+	height: 50px;
+}
+ 
+.nav-principal ul {
+	list-style: none;
+	margin: 0;
+	
+	
+}
+ 
+ .nav-principal ul li {
+	float: left;
+	padding: 20px;
+	margin-top: -21px;
+}
+ 
+.nav-principal  ul li a {
+	display: block;
+	padding:20px;
+	color:#000;
+	text-decoration: none;
+	font-size: 1.3rem;
+	font-size: 13px;
+}
+ 
+.nav-principal  ul li:hover {
+	background:#ccc;
+}
+
+header h1 {
+	font-size: 5rem;
+	font-size: 50px;
+	margin-top: 229px;
+	margin-left: 230px;
+	color: #fff;
+
+}
+
+header h2 {
+	font-size: 3rem;
+	font-size: 30px;
+	color: #FFFFFE;
+	margin-left: 230px;
+
+}
+
+/* ////////////// contenedor ///////////////////*/
+
+.contenedor {
+	width: 100%;
+
+}
+
+
+/* //////////////////   section	info-principal ///////////////////	*/
+.info-principal { 
+
+	background-color: #CCCCCC;
+	width: 100%;
+	height: 350px;
+	float: left;
+
+}
+
+.info-principal article { 
+
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.info-principal article h2 { 
+	font-size: 2.5rem;
+	font-size: 25px;
+	margin-top: 43px
+
+	
+}
+
+.info-principal article p { 
+	font-size: 1.5rem;
+	font-size: 15px;
+	float: left;
+	width: 70%;
+	
+}
+
+.botton-principal {
+	float: right;	
+	height: 60px;
+	width: 180px;
+	background-color: #418DBA;
+	color: #fff;
+	font-size: 1.5rem;
+	font-size: 15px;
+	margin-right: 38px;
+	margin-top: 14px;
+	border: 1px solid #418DBA;
+
+}
+
+.botones-info {
+	width: 100%;
+	background-color: #E1E1E1;
+	float: left;
+	height: 100px;
+}
+
+.botones-info button {
+	height: 60px;
+	width: 160px;
+	margin-left: 180px;
+	border-radius: 26px;
+	background-color: #418DBA;
+	color: #fff;
+	margin-top: 21px;
+	border: 1px solid #418DBA;
+}
+
+/*  /////////////// section    caminito- img  ///////////////////*/
+
+.caminito-img { 
+
+	width: 100%;
+	height: 800px;
+	float: left; 
+	background-color: #fff
+
+}
+
+.caminito-img article {
+
+	max-width: 1000px;
+	margin: 0 auto;
+
+}
+
+.caminito-img article h2 {
+
+	text-align: center;
+	font-size: 2.5rem;
+	font-size: 25px;
+	margin-top: 35px;
+}
+
+.caminito-img article div{
+
+	width: 135px;
+	height: 120px;
+	background-color: #808080;
+	float: left;
+	margin-left: 30px;
+	font-size: 1.3rem;
+	font-size: 13px;
+}
+
+.caminito-img a{
+	float: left;
+	margin-left: 450px;
+	margin-top: 40px;
+	text-decoration: none;
+	height: 90px;
+}
+
+hr{
+	width: 100%;
+}
+
+
+.noticias {
+	width: 30%;
+	float:left;
+}
+
+.eventos {
+	width: 30%;
+	float: left;
+
+
+}
+
+.reserve {
+	width: 30%;
+	float:right;
+}
+
+.noticias a{
+	float: left;
+	margin: 0;
+}
+
+.eventos a{
+	float: left;
+	margin: 0;
+}
+
+.reserve a{
+	float: right;
+	margin: 0;
+}
